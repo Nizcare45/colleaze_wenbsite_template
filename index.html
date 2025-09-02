@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollEaze Website Template</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top Header -->
+    <div class="header-1 d-none d-lg-block">
+        <div class="container">
+            <ul class="list-unstyled d-flex flex-wrap justify-content-between align-items-center py-2 mb-0">
+                <li>Awards</li>
+                <li>Announcements</li>
+                <li>Alumni Portal</li>
+                <li>Feedback</li>
+                <li>Help Desk</li>
+                <li>Contact Us</li>
+            </ul>
+            <ul class="list-unstyled d-flex flex-wrap justify-content-between align-items-center py-2 mb-0">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle text-white text-decoration-none"
+                        data-bs-toggle="dropdown">NAAC</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Criteria 1</a></li>
+                        <li><a class="dropdown-item" href="#">Criteria 2</a></li>
+                        <li><a class="dropdown-item" href="#">Criteria 3</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle text-white text-decoration-none" data-bs-toggle="dropdown">Other
+                        Department</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">CSE</a></li>
+                        <li><a class="dropdown-item" href="#">ECE</a></li>
+                        <li><a class="dropdown-item" href="#">EEE</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle text-white text-decoration-none"
+                        data-bs-toggle="dropdown">Placements</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Records</a></li>
+                        <li><a class="dropdown-item" href="#">Training</a></li>
+                        <li><a class="dropdown-item" href="#">Partners</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle text-white text-decoration-none"
+                        data-bs-toggle="dropdown">Club</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Tech Club</a></li>
+                        <li><a class="dropdown-item" href="#">Sports Club</a></li>
+                        <li><a class="dropdown-item" href="#">Cultural Club</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle text-white text-decoration-none"
+                        data-bs-toggle="dropdown">Others</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Gallery</a></li>
+                        <li><a class="dropdown-item" href="#">Events</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle text-white text-decoration-none"
+                        data-bs-toggle="dropdown">Library</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Books</a></li>
+                        <li><a class="dropdown-item" href="#">E-Resources</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle text-white text-decoration-none" data-bs-toggle="dropdown">Fees
+                        Portal</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Pay Fees</a></li>
+                        <li><a class="dropdown-item" href="#">Fee Status</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/colleaze.png" width="170px" alt="CollEaze Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <div class="animated-toggler" id="togglerBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-3">
+                    <!-- Header-1 Items (mobile only) -->
+                    <li class="nav-item d-lg-none"><a class="nav-link" href="#">Awards</a></li>
+                    <li class="nav-item d-lg-none"><a class="nav-link" href="#">Announcements</a></li>
+                    <li class="nav-item d-lg-none"><a class="nav-link" href="#">Alumni Portal</a></li>
+                    <li class="nav-item d-lg-none"><a class="nav-link" href="#">Feedback</a></li>
+                    <li class="nav-item d-lg-none"><a class="nav-link" href="#">Help Desk</a></li>
+                    <li class="nav-item d-lg-none"><a class="nav-link" href="#">Contact Us</a></li>
+
+                    <li class="nav-item dropdown d-lg-none">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">NAAC</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Criteria 1</a></li>
+                            <li><a class="dropdown-item" href="#">Criteria 2</a></li>
+                            <li><a class="dropdown-item" href="#">Criteria 3</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown d-lg-none">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Other Department</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">CSE</a></li>
+                            <li><a class="dropdown-item" href="#">ECE</a></li>
+                            <li><a class="dropdown-item" href="#">EEE</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown d-lg-none">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Placements</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Records</a></li>
+                            <li><a class="dropdown-item" href="#">Training</a></li>
+                            <li><a class="dropdown-item" href="#">Partners</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown d-lg-none">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Club</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Tech Club</a></li>
+                            <li><a class="dropdown-item" href="#">Sports Club</a></li>
+                            <li><a class="dropdown-item" href="#">Cultural Club</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown d-lg-none">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Others</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Gallery</a></li>
+                            <li><a class="dropdown-item" href="#">Events</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown d-lg-none">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Library</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Books</a></li>
+                            <li><a class="dropdown-item" href="#">E-Resources</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown d-lg-none">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Fees Portal</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Pay Fees</a></li>
+                            <li><a class="dropdown-item" href="#">Fee Status</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Main Navbar Items -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Home</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Overview</a></li>
+                            <li><a class="dropdown-item" href="#">News</a></li>
+                            <li><a class="dropdown-item" href="#">Updates</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">About Us</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">History</a></li>
+                            <li><a class="dropdown-item" href="#">Vision</a></li>
+                            <li><a class="dropdown-item" href="#">Mission</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Academics</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Programs</a></li>
+                            <li><a class="dropdown-item" href="#">Courses</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Departments</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">CSE</a></li>
+                            <li><a class="dropdown-item" href="#">ECE</a></li>
+                            <li><a class="dropdown-item" href="#">EEE</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Faculty</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Staff List</a></li>
+                            <li><a class="dropdown-item" href="#">Achievements</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Students</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Records</a></li>
+                            <li><a class="dropdown-item" href="#">Clubs</a></li>
+                            <li><a class="dropdown-item" href="#">Activities</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Exam</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Results</a></li>
+                            <li><a class="dropdown-item" href="#">Schedules</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Admission</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">UG</a></li>
+                            <li><a class="dropdown-item" href="#">PG</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section-->
+    <section class="hero-section d-flex align-items-center text-white">
+        <div class="container text-start hero-heading">
+            <p class="fw-bold text-primary">WELCOME TO</p>
+            <h1 class="display-5 fw-bold">MAM College of Engineering</h1>
+            <p class="lead">Maintaining Global Standards and Excellence</p>
+            <a href="#" class="hero-btn btn-lg mt-5 rounded-pill px-4">Find Courses →</a>
+        </div>
+    </section>
+
+    <!-- Cards Section -->
+    <section class="info-section">
+        <div class="container position-relative">
+            <div class="row g-4 justify-content-center">
+                <!-- Announcements -->
+                <div class="col-md-4">
+                    <div class="info-card bg-purple text-white p-4 rounded-4 shadow-lg animate-on-scroll">
+                        <h4 class="fw-bold mb-3"><i class="fa-solid fa-bullhorn me-2"></i> Announcements</h4>
+                        <p>Semester Class Timetable – B.E / B.Tech Academic Year 2025–2026</p>
+                        <p class="small">19 Aug 2025</p>
+                        <a href="#" class="btn btn-light btn-sm rounded-pill px-3">View All →</a>
+                    </div>
+                </div>
+                <!-- Admission -->
+                <div class="col-md-4">
+                    <div class="info-card bg-success text-white p-4 rounded-4 shadow-lg animate-on-scroll">
+                        <h4 class="fw-bold mb-3"><i class="fa-solid fa-user-graduate me-2"></i> Admission</h4>
+                        <p>B.E-B.Tech Admissions – 2025-26</p>
+                        <p>MSc Admissions – 2025-26</p>
+                        <a href="#" class="btn btn-light btn-sm rounded-pill px-3">Click Here →</a>
+                    </div>
+                </div>
+                <!-- Fees Portal -->
+                <div class="col-md-4">
+                    <div class="info-card bg-danger text-white p-4 rounded-4 shadow-lg animate-on-scroll">
+                        <h4 class="fw-bold mb-3"><i class="fa-solid fa-credit-card me-2"></i> MAMCE Fees Portal</h4>
+                        <p>Pay your college admission & semester fees online</p>
+                        <a href="#" class="btn btn-light btn-sm rounded-pill px-3">Click Here →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section py-5 position-relative">
+        <!-- Particle Background -->
+        <div id="particles-js"></div>
+
+        <div class="container">
+            <div class="row align-items-center">
+                <!-- Left Content -->
+                <div class="col-lg-6 mb-5 mb-lg-0">
+                    <p class="text-uppercase text-muted fw-bold small mb-2">About Us</p>
+                    <h2 class="fw-bold mb-4">
+                        We Provide Best <span class="about-text">Education</span> Services For You
+                    </h2>
+
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs border-0 mb-4" id="aboutTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="about-tab" data-bs-toggle="tab" data-bs-target="#about"
+                                type="button" role="tab">
+                                About MAMCE
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="mission-tab" data-bs-toggle="tab" data-bs-target="#mission"
+                                type="button" role="tab">
+                                Our Mission
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="vision-tab" data-bs-toggle="tab" data-bs-target="#vision"
+                                type="button" role="tab">
+                                Our Vision
+                            </button>
+                        </li>
+                    </ul>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content" id="aboutTabContent">
+                        <div class="tab-pane fade show active" id="about" role="tabpanel">
+                            <p>
+                                The Institute strives to inculcate a sound knowledge in engineering along with realized
+                                social
+                                responsibilities to enable its students to combat the current and impending challenges
+                                faced by our
+                                country and to extend their expertise to the global arena.
+                            </p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fa-solid fa-check text-success me-2"></i> Excellence in Engineering
+                                    Education</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i> World-Class Research and
+                                    Development</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-pane fade" id="mission" role="tabpanel">
+                            <p>
+                                Our mission is to impart high-quality education and training to make students
+                                world-class engineers,
+                                pioneers of innovative solutions, and leaders for societal betterment.
+                            </p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fa-solid fa-check text-success me-2"></i> Social Advancement through
+                                    Technology</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i> Industry-Relevant Curriculum
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-pane fade" id="vision" role="tabpanel">
+                            <p>
+                                Our vision is to build globally competent professionals who can contribute to
+                                technological advancements
+                                while upholding social responsibility.
+                            </p>
+                            <ul class="list-unstyled mt-3">
+                                <li><i class="fa-solid fa-check text-success me-2"></i> Online Remote Learning</li>
+                                <li><i class="fa-solid fa-check text-success me-2"></i> Lifetime Learning Opportunities
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-6 text-center position-relative">
+                    <div class="about-img-wrapper">
+                        <img src="./assets/about-1.png" alt="About Image" class="img-fluid rounded-4 shadow-lg">
+                        <div class="bg-shape dots"></div>
+                        <div class="bg-shape circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Admission Section with Parallax -->
+    <section class="admission-section text-center text-white d-flex align-items-center justify-content-center">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1 class="fw-bold">M.A.M College of Engineering</h1>
+            <h2 class="about-text mt-3 mb-4">ADMISSIONS</h2>
+            <a href="#" class="hero-btn btn-lg rounded-pill px-4">Get Started Now →</a>
+        </div>
+    </section>
+
+    <!-- Campus Life Section -->
+    <section class="campus-life-section">
+
+        <!-- Particles Background -->
+        <div id="particles-js1"></div>
+
+        <div class="container position-relative">
+            <div class="row align-items-center">
+
+                <!-- Left Image -->
+                <div class="col-lg-6 mb-4 mb-lg-0 text-center">
+                    <div class="campus-img-wrapper">
+                        <img src="./assets/campus.jpg" alt="Campus Life" class="img-fluid rounded-4 shadow-lg">
+                    </div>
+                    <div class="bg-shape dots"></div>
+                    <div class="bg-shape circle"></div>
+                </div>
+
+                <!-- Right Content -->
+                <div class="col-lg-6">
+                    <div class="campus-content p-4 p-lg-5 shadow-lg rounded-4 bg-white">
+                        <p class="text-uppercase small fw-bold text-muted">Campus</p>
+                        <h2 class="fw-bold mb-4">Campus Life</h2>
+
+                        <div class="campus-feature d-flex mb-4">
+                            <div class="icon-wrapper me-3"><i class="fa-solid fa-briefcase"></i></div>
+                            <div>
+                                <h5 class="fw-bold">Placement Cell</h5>
+                                <p class="mb-0">We have a dedicated placement cell for student success.</p>
+                            </div>
+                        </div>
+
+                        <div class="campus-feature d-flex mb-4">
+                            <div class="icon-wrapper me-3"><i class="fa-solid fa-flask"></i></div>
+                            <div>
+                                <h5 class="fw-bold">Research Facilities</h5>
+                                <p class="mb-0">Access to cutting-edge research labs and collaborations.</p>
+                            </div>
+                        </div>
+
+                        <div class="campus-feature d-flex">
+                            <div class="icon-wrapper me-3"><i class="fa-solid fa-dumbbell"></i></div>
+                            <div>
+                                <h5 class="fw-bold">Living at MAMCE</h5>
+                                <p class="mb-0">Comfortable residential facilities for all students.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses-section position-relative">
+        <!-- Particles Background -->
+        <div id="particles-js-courses"></div>
+
+        <div class="container position-relative">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold section-title">OUR COURSES</h2>
+                <p class="section-subtitle">Explore our Undergraduate (UG) & Postgraduate (PG) programs</p>
+            </div>
+
+            <!-- UG Courses -->
+            <div class="mb-5">
+                <h4 class="fw-bold text-uppercase text-center mb-4 course-heading">UG Courses</h4>
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="course-card">
+                            <div class="icon-circle"><i class="fa-solid fa-building-columns"></i></div>
+                            <h5>Civil Engineering</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="course-card">
+                            <div class="icon-circle"><i class="fa-solid fa-laptop-code"></i></div>
+                            <h5>Computer Science & Engineering</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="course-card">
+                            <div class="icon-circle"><i class="fa-solid fa-microchip"></i></div>
+                            <h5>Electronics & Communication</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PG Courses -->
+            <div>
+                <h4 class="fw-bold text-uppercase text-center mb-4 course-heading">PG Courses</h4>
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="course-card">
+                            <div class="icon-circle"><i class="fa-solid fa-shield-halved"></i></div>
+                            <h5>Cyber Security</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="course-card">
+                            <div class="icon-circle"><i class="fa-solid fa-brain"></i></div>
+                            <h5>AI & Machine Learning</h5>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="course-card">
+                            <div class="icon-circle"><i class="fa-solid fa-network-wired"></i></div>
+                            <h5>Data Science</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Career & Placement Section -->
+    <section class="career-placement-section position-relative">
+        <!-- Particles Background -->
+        <div id="particles-js-career"></div>
+
+        <div class="container position-relative text-center">
+            <!-- Heading -->
+            <h2 class="fw-bold career-title">CAREER & PLACEMENT</h2>
+            <p class="career-subtext">
+                Our Career Development & Placement (CDP) Cell empowers students with
+                the right skills, training, and opportunities to succeed in the
+                professional world. With strong industry connections and tailored
+                development programs, we ensure our graduates are placement ready.
+            </p>
+
+            <!-- Stats Grid -->
+            <div class="row justify-content-center g-4 mt-4">
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="circle-card">
+                        <i class="fa-solid fa-sack-dollar"></i>
+                        <h4>₹10 LPA</h4>
+                        <p>Highest Salary</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="circle-card">
+                        <i class="fa-solid fa-wallet"></i>
+                        <h4>₹5 LPA</h4>
+                        <p>Average Salary</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="circle-card">
+                        <i class="fa-solid fa-building"></i>
+                        <h4>7+</h4>
+                        <p>Recruiters</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="circle-card">
+                        <i class="fa-solid fa-award"></i>
+                        <h4>40+</h4>
+                        <p>Offers</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="circle-card highlight">
+                        <i class="fa-solid fa-check-circle"></i>
+                        <h4>80%</h4>
+                        <p>Placement Rate</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="mt-5">
+                <button class="btn explore-btn">Explore More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+
+                <!-- About -->
+                <div class="col-md-4 footer-col">
+                    <h5>About Us</h5>
+                    <p>
+                        M.A.M. College of Engineering is committed to providing excellence
+                        in education, empowering students with skills and knowledge to
+                        excel in their careers.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-md-4 footer-col text-center">
+                    <h5>Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#courses">Courses</a></li>
+                        <li><a href="#placements">Placements</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact / Social -->
+                <div class="col-md-4 footer-col">
+                    <h5>Contact</h5>
+                    <p><i class="fa-solid fa-location-dot"></i> Trichy, Tamil Nadu</p>
+                    <p><i class="fa-solid fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fa-solid fa-envelope"></i> info@mamce.ac.in</p>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Bar -->
+            <div class="footer-bottom text-center">
+                <p>© 2025 M.A.M. College of Engineering. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- particles.js script -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const togglerBtn = document.getElementById('togglerBtn');
+        const navbarToggler = document.querySelector('.navbar-toggler');
+
+        navbarToggler.addEventListener('click', () => {
+            togglerBtn.classList.toggle('open');
+        });
+
+        function animateOnScroll() {
+            const cards = document.querySelectorAll('.animate-on-scroll');
+            const triggerBottom = window.innerHeight * 0.85;
+
+            cards.forEach(card => {
+                const cardTop = card.getBoundingClientRect().top;
+
+                if (cardTop < triggerBottom) {
+                    card.classList.add('animate');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', animateOnScroll);
+        window.addEventListener('load', animateOnScroll);
+
+        // Reusable config function
+        function initParticles(id, colors) {
+            particlesJS(id, {
+                "particles": {
+                    "number": {
+                        "value": 80,
+                        "density": { "enable": true, "value_area": 800 }
+                    },
+                    "color": { "value": colors },
+                    "shape": { "type": "circle" },
+                    "opacity": { "value": 0.5 },
+                    "size": { "value": 4, "random": true },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 150,
+                        "color": "#aaa",
+                        "opacity": 0.4,
+                        "width": 1
+                    },
+                    "move": { "enable": true, "speed": 3 }
+                },
+                "interactivity": {
+                    "events": {
+                        "onhover": { "enable": true, "mode": "grab" },
+                        "onclick": { "enable": true, "mode": "push" }
+                    },
+                    "modes": {
+                        "grab": { "distance": 200, "line_linked": { "opacity": 0.8 } },
+                        "push": { "particles_nb": 4 }
+                    }
+                },
+                "retina_detect": true
+            });
+        }
+
+        // About section
+        initParticles("particles-js", ["#1a1aff", "#d63384"]);
+
+        // Campus section
+        initParticles("particles-js1", ["#1a1aff", "#d63384"]);
+
+        // Courses section
+        initParticles("particles-js-courses", ["#1a1aff", "#d63384"]);
+
+        // career
+        initParticles("particles-js-career", ["#1a1aff", "#d63384"]);
+
+    </script>
+</body>
+
+</html>
